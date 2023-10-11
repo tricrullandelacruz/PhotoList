@@ -35,6 +35,10 @@ private extension DogListViewModel {
             
             switch result {
             case let .success(dogs):
+                guard !dogs.isEmpty else {
+                    self.state = .empty
+                    return
+                }
                 self.state = .loaded(dogs)
             case let .failure(error):
                 self.state = .failed(error)

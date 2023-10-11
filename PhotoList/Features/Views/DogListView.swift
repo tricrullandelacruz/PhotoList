@@ -46,16 +46,21 @@ private extension DogListView {
                 .scaleEffect(1, anchor: .center)
                 .progressViewStyle(CircularProgressViewStyle(tint: .gray))
         }
+        .navigationBarTitle(Text(R.string.localizable.dogs))
+        .navigationBarTitleDisplayMode(.inline)
     }
     
     func messageView(message: String) -> some View {
-        VStack(alignment: .center) {
-            Text(message)
-                .font(.headline.bold())
-                .multilineTextAlignment(.center)
-            Spacer()
+        NavigationView {
+            VStack(alignment: .center) {
+                Text(message)
+                    .font(.headline.bold())
+                    .multilineTextAlignment(.center)
+                Spacer()
+            }
+            .padding()
         }
-        .padding()
+        .navigationBarTitle(Text(R.string.localizable.dogs), displayMode: .inline)
     }
 }
 
