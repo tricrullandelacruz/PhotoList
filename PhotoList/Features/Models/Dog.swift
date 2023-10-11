@@ -34,7 +34,6 @@ struct Dog: Codable {
     let name: String
 }
 
-
 extension Dog: Identifiable {
     var id: String { return name }
 }

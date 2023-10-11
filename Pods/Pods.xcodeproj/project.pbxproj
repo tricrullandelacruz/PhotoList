@@ -178,9 +178,9 @@
 		3417EDE3F49EB77B8B797FEF705E1C14 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Sources/RswiftResources/Integrations/Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		35A524BAA788900A46CFA707BA4FB614 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		36E1AD04ECA46FE47AFE94C4B4F8CBEE /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEC2C232AB41D92EF8909003641F217 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = R.swift; path = RswiftResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA5BDD6DA462D45C28EA963654D95D3 /* RswiftResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RswiftResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		409332B16F8B96EEAE4957DE476219CA /* StringsTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringsTable.swift; path = Sources/RswiftResources/Shared/StringsTable.swift; sourceTree = "<group>"; };
 		40C4A5D3F5D9E2CBD83835214FDA29CC /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		42C87BB3A29DA76EBB6FF171598CE2DE /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		5697BFFB746AEF81E7ADE899F06983A2 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		5B33D41D49E9E0301D81362FF14BBF30 /* ImageResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/ImageResource+Integrations.swift"; sourceTree = "<group>"; };
 		5B95B2F959C68C1C16EEF3CA71E8CE28 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFF4CAD39C61AB070571685869EEE2 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		62FD8B2F7B75EEC30944B3195F375804 /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Sources/RswiftResources/FontResource.swift; sourceTree = "<group>"; };
 		63FDB8793D35CBA359767A46B491A0B4 /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
@@ -235,7 +235,7 @@
 		9CFBF399A390A02F0A679FCD36E97175 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
 		9D681006AE6AA4C01AE1AB9617B33072 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		9D75D9B58A6E715D46F04A1A92C3217C /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFAFCFE0DCC9CA0D4CC9C6E8D75E7C6 /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Sources/RswiftResources/ImageResource.swift; sourceTree = "<group>"; };
 		A6905EFE21E756ACA7BA9577791816A9 /* Pods-PhotoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoList.debug.xcconfig"; sourceTree = "<group>"; };
 		A72FBF585892B1AADFA49515C1487F1E /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
@@ -420,7 +420,6 @@
 				66A2956592DFEA8CB0E86538EF44F40D /* ValidationError.swift */,
 				E9A24648F05C41D71172216D3705303A /* Support Files */,
 			);
-			name = R.swift;
 			path = R.swift;
 			sourceTree = "<group>";
 		};
@@ -461,7 +460,6 @@
 				A197788F7F9BEABF7BE7E98596CBC1E6 /* Core */,
 				4579A41C8B96831B5D01E0B66FB75E14 /* Support Files */,
 			);
-			name = Moya;
 			path = Moya;
 			sourceTree = "<group>";
 		};
@@ -487,10 +485,10 @@
 		DA8131A74B15AD4D089398EDEEB2C8D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */,
 				4BBED98321363941B2089C0484BD23AD /* Pods-PhotoList */,
-				3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */,
+				3EA5BDD6DA462D45C28EA963654D95D3 /* RswiftResources.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -562,7 +560,6 @@
 				69B5AD2CE9D0B157051D5F7273ECF832 /* Validation.swift */,
 				1376E953303CF8E4277F1FB6B6A4E749 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -620,7 +617,7 @@
 			);
 			name = Moya;
 			productName = Moya;
-			productReference = 3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya */;
+			productReference = 3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		230984053C6652DFF510F450F21C5CF7 /* R.swift */ = {
@@ -638,7 +635,7 @@
 			);
 			name = R.swift;
 			productName = RswiftResources;
-			productReference = 3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */;
+			productReference = 3EA5BDD6DA462D45C28EA963654D95D3 /* RswiftResources.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		959C074DFD5C462C19D3F30FBF64049F /* Pods-PhotoList */ = {
@@ -677,7 +674,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -951,7 +948,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Moya/Moya-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Moya/Moya-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -987,7 +984,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/R.swift/R.swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1189,7 +1186,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1224,7 +1221,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/R.swift/R.swift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/R.swift/R.swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1259,7 +1256,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1295,7 +1292,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Moya/Moya-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Moya/Moya-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
