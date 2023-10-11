@@ -7,6 +7,7 @@ def pods
   # Pods for PhotoList
   pod 'Alamofire'
   pod 'Moya'
+  pod 'R.swift'
 end
 
 target 'PhotoList' do

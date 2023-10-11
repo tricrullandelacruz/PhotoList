@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  PhotoList
+
+  Created by Tricia Lorrainne Rullan Dela Cruz on 11/10/23.
+  
+*/
+
+"List" = "List";
+"Dogs" = "Dogs";
+"Good With Strangers" = "Good With Strangers: %d/5";
+"Playfulness" = "Playfulness: %d/5";
+"Protectiveness" = "Protectiveness: %d/5";
+"Trainability" = "Trainability: %d/5";
+"Energy" = "Energy: %d/5";
+"Max Life Expectancy" = "Max Life Expectancy: %d years";
+"Min Life Expectancy" = "Min Life Expectancy: %d years";
+"No available list" =  "No available list";

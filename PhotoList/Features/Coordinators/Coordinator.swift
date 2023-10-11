@@ -23,12 +23,15 @@ final class AppCoordinator: ObservableObject {
 }
 
 private extension AppCoordinator {
-    func bind(view: PhotoListView) {
-        view.didClickUser
+    func bind(view: HomeView) {
+        view.didTapMenuItem
             .receive(on: DispatchQueue.main)
-            .sink(receiveValue: { [weak self] user in
+            .sink(receiveValue: { [weak self] item in
                 guard let self = self else { return }
-                //self?.showUserProfile(for: user)
+                switch item {
+                case .dogs:
+                    self.dogsFlow()
+                }
             })
             .store(in: &cancellables)
     }
@@ -38,9 +41,23 @@ private extension AppCoordinator {
     }
     
     func homeView() -> some View {
-        let viewModel = PhotoListViewModel()
-        let photoListView = PhotoListView(viewModel: viewModel)
-        bind(view: photoListView)
-        return photoListView
+        let homeView = HomeView()
+        bind(view: homeView)
+        return homeView
+    }
+    
+    func dogsFlow() {
+        let coordinator = DogCoordinator(page: .list)
+        self.bind(coordinator: coordinator)
+        self.push(coordinator)
+    }
+    
+    func bind(coordinator: DogCoordinator) {
+        coordinator.pushCoordinator
+            .receive(on: DispatchQueue.main)
+            .sink(receiveValue: { [weak self] coordinator in
+                self?.push(coordinator)
+            })
+            .store(in: &cancellables)
     }
 }

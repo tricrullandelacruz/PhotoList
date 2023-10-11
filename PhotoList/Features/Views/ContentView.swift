@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack(path: $appCoordinator.path) {
             appCoordinator.build()
-                .navigationDestination(for: PhotoCoordinator.self) { coordinator in
+                .navigationDestination(for: DogCoordinator.self) { coordinator in
                     coordinator.build()
                 }
         }
